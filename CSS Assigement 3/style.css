@@ -1,0 +1,83 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Centering content in the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ /* Styling for divs inside the container */
+ .container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+/* Container grid layout */
+.container {
+    display: grid;
+    grid-template-columns: 66% 34%;
+    grid-template-rows: 1fr 1fr;
+    width: 800px;
+    height: 510px;
+    gap: 0px;
+    padding: 20px;
+    border: 2px solid black; 
+    box-sizing: content-box; 
+}
+/* Styling for container1 */
+.container1 {
+    grid-column: 1 / 3;
+    background-color: #FF9999;
+    border: 2px solid black;
+}
+
+/* Styling for h2 inside container1 */
+.container1 h2 {
+    margin-right: 50px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+/* Styling for container2 */
+.container2 {
+    background-color: yellow; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px; 
+    font-size: 40pc;
+    border: 2px solid black;
+}
+
+/* Styling for imagecontainer */
+.imagecontainer {
+    height: 100%; 
+    width: 100%; 
+    background-image: url("./src/images/image1.jpg"); 
+    background-size: cover;
+    background-position: center; 
+}
+
+/* Styling for container3 */
+.container3 {
+    background-color: #ECECFB;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Styling for h2 and p elements */
+h2, p {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}

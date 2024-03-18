@@ -1,0 +1,80 @@
+/* Resetting Default Browser Settings */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Adding padding to the body */
+body {
+    padding: 20px;
+}
+
+/* Creating a flex container with a column layout for the section */
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for container 'a' */
+.container1 {
+    /* Centering the container horizontally with top and bottom margin */
+    margin: 20px auto;
+    height: 200px;
+    width: 950px;
+    border: 1px solid black;
+}
+
+/* Styling for images within container 'a' */
+.container1 img {
+    width: 100%;
+    height: 100%;
+    /* Covering the container while maintaining aspect ratio */
+    object-fit: cover;
+}
+
+/* Styling for container 'b' */
+.container2 {
+    border: 3px solid black;
+    height: 233px;
+    /* Centering the container horizontally with top and bottom margin */
+    margin: 40px auto;
+    width: 950px;
+}
+
+/* Styling for images within container 'b' */
+.container2 img {
+    width: 100%;
+    height: 218%;
+    margin-top: -32%;
+    /* Applying a clip path for visual effect (Bottom Half) */
+    clip-path: inset(60% -1% 0% 0%);
+}
+
+/* Styling for container 'c' */
+.container3 {
+    /* Centering the container horizontally with top and bottom margin */
+    margin: 20px auto;
+    height: 358px;
+    width: 950px;
+}
+
+/* Styling for container with class 'image' */
+.image {
+    height: 300px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* Styling for images within container with class 'image' */
+.image img {
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    /* Covering the container while maintaining aspect ratio */
+    object-fit: cover;
+}
+
+/* Styling for 'h1' elements */
+h1 {
+    margin: 0 0 2px 5px;
+}

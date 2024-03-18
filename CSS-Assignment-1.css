@@ -1,0 +1,61 @@
+        /* Resetting default padding and margin */
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Body styling */
+        body {
+            padding-left: 11em;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #80007E;
+            background-color: #d8da3d;
+            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
+        }
+        
+        /* Navbar styling */
+        ul.navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 2em;
+            left: 1em;
+            width: 9em
+        } 
+
+        /* Navbar list item styling */
+        ul.navbar li {
+            background: white;
+            padding: 0.3em;
+            border-right: 16px solid black; 
+            margin: 0.5em 0; 
+            width: 170px;
+        }
+
+        /* Navbar link styling */
+        ul.navbar a {
+            text-decoration: none
+        }
+
+        /* Section styling */
+        .section{
+            margin: 20px 0 0 70px;
+        }
+
+        /* Paragraph within section styling */
+        .section p{
+            margin: 20px 0 20px 0;
+        }
+
+        /* Visited link styling */
+        a:visited {
+            color:  #80007E;
+        }
+
+        /* Address styling */
+        address {
+            border-top: thin dotted; 
+            padding-top: 1em;
+            margin-top: 50px;
+        }

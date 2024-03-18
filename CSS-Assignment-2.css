@@ -1,0 +1,134 @@
+/* Reset default padding and margin */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set body styles */
+body {
+  padding-left: 11em;
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  color: #80007E;
+  background-color: #d8da3d;
+}
+
+/* Style the navbar */
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+}
+
+/* Style each navbar item */
+ul.navbar li {
+  background: white;
+  padding: 0.3em;
+  margin: 0.5em 0;
+  width: 170px;
+}
+
+/* Add a right border to the 2nd and 4th navbar items */
+ul.navbar li:nth-child(2), ul.navbar li:nth-child(4) {
+  border-right: 16px solid #0000FF;
+}
+
+/* Add a right border to the other navbar items */
+ul.navbar li:not(:nth-child(2)):not(:nth-child(4)) {
+  border-right: 16px solid #FF7F00;
+}
+
+/* Remove text decoration from navbar links */
+ul.navbar a {
+  text-decoration: none;
+}
+
+/* Add margin to the main section */
+.section {
+  margin: 20px 0 0 70px;
+}
+
+/* Add margin to each paragraph in the main section */
+.section p {
+  margin: 20px 0;
+}
+
+/* Style the first paragraph */
+.section p.first {
+  border: 1px dotted black;
+  text-align: left;
+  margin-right: 20%;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+}
+/* Style for the paragraph with the dashed red line */
+.section p.red-line {
+  border-bottom: 1px dashed red;
+  padding-bottom: 20px;
+}
+
+/* Add a bounce animation to the first paragraph on hover */
+.section p.first:hover {
+  animation: bounce 1s;
+}
+
+/* Style the second paragraph */
+.section p.second {
+  border: 1px dotted red;
+  text-align: left;
+  margin-right: 20%;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  text-align: right;
+}
+
+/* Add a bounce animation to the second paragraph on hover */
+.section p.second:hover {
+  animation: bounce 1s;
+}
+
+/* Style the third paragraph */
+.section p.third {
+  border: 1px dotted green;
+  text-align: left;
+  margin-right: 20%;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Add a bounce animation to the third paragraph on hover */
+.section p.third:hover {
+  animation: bounce 1s;
+}
+
+/* Define the bounce animation */
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
