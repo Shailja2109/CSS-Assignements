@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* Container grid layout */
@@ -55,7 +55,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding: 10px; 
-    font-size: 40pc;
+    font-size: 15px;
     border: 2px solid black;
 }
 
@@ -75,9 +75,23 @@ body {
     border: 2px solid black;
 }
 
+.container3 > img{
+    padding: 15px;
+}
+
 /* Styling for h2 and p elements */
-h2, p {
+h2 {
     margin: 0;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
+}
+
+p{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.container3 > p {
+    padding: 15px 30px;
 }

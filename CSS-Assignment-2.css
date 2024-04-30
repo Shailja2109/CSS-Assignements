@@ -4,6 +4,9 @@
   margin: 0;
 }
 
+a{
+  color: #80007E;
+}
 /* Set body styles */
 body {
   padding-left: 11em;
@@ -33,7 +36,7 @@ ul.navbar li {
 
 /* Add a right border to the 2nd and 4th navbar items */
 ul.navbar li:nth-child(2), ul.navbar li:nth-child(4) {
-  border-right: 16px solid #0000FF;
+  border-right: 16px solid #80007E;
 }
 
 /* Add a right border to the other navbar items */
@@ -58,7 +61,7 @@ ul.navbar a {
 
 /* Style the first paragraph */
 .section p.first {
-  border: 1px dotted black;
+  border: 1px dashed black;
   text-align: left;
   margin-right: 20%;
   color: black;
@@ -78,7 +81,7 @@ ul.navbar a {
 
 /* Style the second paragraph */
 .section p.second {
-  border: 1px dotted red;
+  border: 1px dashed red;
   text-align: left;
   margin-right: 20%;
   color: black;
